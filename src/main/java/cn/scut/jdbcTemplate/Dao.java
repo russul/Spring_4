@@ -3,15 +3,11 @@ package cn.scut.jdbcTemplate;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
-import java.nio.file.Files;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-import javax.activation.FileDataSource;
-import javax.ws.rs.GET;
 
 import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
